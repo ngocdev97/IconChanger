@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB852B82C5CD6AA00A5B48B /* IconChangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852B72C5CD6AA00A5B48B /* IconChangerApp.swift */; };
+		9BB852BA2C5CD6AA00A5B48B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852B92C5CD6AA00A5B48B /* ContentView.swift */; };
+		9BB852BC2C5CD6AB00A5B48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB852BB2C5CD6AB00A5B48B /* Assets.xcassets */; };
+		9BB852BF2C5CD6AB00A5B48B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB852BE2C5CD6AB00A5B48B /* Preview Assets.xcassets */; };
+		9BB852CA2C5CD6AB00A5B48B /* IconChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852C92C5CD6AB00A5B48B /* IconChangerTests.swift */; };
+		9BB852D42C5CD6AB00A5B48B /* IconChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852D32C5CD6AB00A5B48B /* IconChangerUITests.swift */; };
+		9BB852D62C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852D52C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB852C62C5CD6AB00A5B48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB852AC2C5CD6AA00A5B48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB852B32C5CD6AA00A5B48B;
+			remoteInfo = IconChanger;
+		};
+		9BB852D02C5CD6AB00A5B48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB852AC2C5CD6AA00A5B48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB852B32C5CD6AA00A5B48B;
+			remoteInfo = IconChanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BB852B42C5CD6AA00A5B48B /* IconChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB852B72C5CD6AA00A5B48B /* IconChangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerApp.swift; sourceTree = "<group>"; };
+		9BB852B92C5CD6AA00A5B48B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BB852BB2C5CD6AB00A5B48B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB852BE2C5CD6AB00A5B48B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BB852C02C5CD6AB00A5B48B /* IconChanger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IconChanger.entitlements; sourceTree = "<group>"; };
+		9BB852C52C5CD6AB00A5B48B /* IconChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconChangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB852C92C5CD6AB00A5B48B /* IconChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerTests.swift; sourceTree = "<group>"; };
+		9BB852CF2C5CD6AB00A5B48B /* IconChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB852D32C5CD6AB00A5B48B /* IconChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerUITests.swift; sourceTree = "<group>"; };
+		9BB852D52C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB852B12C5CD6AA00A5B48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852C22C5CD6AB00A5B48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852CC2C5CD6AB00A5B48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB852AB2C5CD6AA00A5B48B = {
+			isa = PBXGroup;
+			children = (
+				9BB852B62C5CD6AA00A5B48B /* IconChanger */,
+				9BB852C82C5CD6AB00A5B48B /* IconChangerTests */,
+				9BB852D22C5CD6AB00A5B48B /* IconChangerUITests */,
+				9BB852B52C5CD6AA00A5B48B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB852B52C5CD6AA00A5B48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB852B42C5CD6AA00A5B48B /* IconChanger.app */,
+				9BB852C52C5CD6AB00A5B48B /* IconChangerTests.xctest */,
+				9BB852CF2C5CD6AB00A5B48B /* IconChangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB852B62C5CD6AA00A5B48B /* IconChanger */ = {
+			isa = PBXGroup;
+			children = (
+				9BB852B72C5CD6AA00A5B48B /* IconChangerApp.swift */,
+				9BB852B92C5CD6AA00A5B48B /* ContentView.swift */,
+				9BB852BB2C5CD6AB00A5B48B /* Assets.xcassets */,
+				9BB852C02C5CD6AB00A5B48B /* IconChanger.entitlements */,
+				9BB852BD2C5CD6AB00A5B48B /* Preview Content */,
+			);
+			path = IconChanger;
+			sourceTree = "<group>";
+		};
+		9BB852BD2C5CD6AB00A5B48B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BB852BE2C5CD6AB00A5B48B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BB852C82C5CD6AB00A5B48B /* IconChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB852C92C5CD6AB00A5B48B /* IconChangerTests.swift */,
+			);
+			path = IconChangerTests;
+			sourceTree = "<group>";
+		};
+		9BB852D22C5CD6AB00A5B48B /* IconChangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB852D32C5CD6AB00A5B48B /* IconChangerUITests.swift */,
+				9BB852D52C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift */,
+			);
+			path = IconChangerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB852B32C5CD6AA00A5B48B /* IconChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB852D92C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChanger" */;
+			buildPhases = (
+				9BB852B02C5CD6AA00A5B48B /* Sources */,
+				9BB852B12C5CD6AA00A5B48B /* Frameworks */,
+				9BB852B22C5CD6AA00A5B48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconChanger;
+			productName = IconChanger;
+			productReference = 9BB852B42C5CD6AA00A5B48B /* IconChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BB852C42C5CD6AB00A5B48B /* IconChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB852DC2C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChangerTests" */;
+			buildPhases = (
+				9BB852C12C5CD6AB00A5B48B /* Sources */,
+				9BB852C22C5CD6AB00A5B48B /* Frameworks */,
+				9BB852C32C5CD6AB00A5B48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB852C72C5CD6AB00A5B48B /* PBXTargetDependency */,
+			);
+			name = IconChangerTests;
+			productName = IconChangerTests;
+			productReference = 9BB852C52C5CD6AB00A5B48B /* IconChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BB852CE2C5CD6AB00A5B48B /* IconChangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB852DF2C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChangerUITests" */;
+			buildPhases = (
+				9BB852CB2C5CD6AB00A5B48B /* Sources */,
+				9BB852CC2C5CD6AB00A5B48B /* Frameworks */,
+				9BB852CD2C5CD6AB00A5B48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB852D12C5CD6AB00A5B48B /* PBXTargetDependency */,
+			);
+			name = IconChangerUITests;
+			productName = IconChangerUITests;
+			productReference = 9BB852CF2C5CD6AB00A5B48B /* IconChangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB852AC2C5CD6AA00A5B48B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9BB852B32C5CD6AA00A5B48B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9BB852C42C5CD6AB00A5B48B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9BB852B32C5CD6AA00A5B48B;
+					};
+					9BB852CE2C5CD6AB00A5B48B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9BB852B32C5CD6AA00A5B48B;
+					};
+				};
+			};
+			buildConfigurationList = 9BB852AF2C5CD6AA00A5B48B /* Build configuration list for PBXProject "IconChanger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB852AB2C5CD6AA00A5B48B;
+			productRefGroup = 9BB852B52C5CD6AA00A5B48B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB852B32C5CD6AA00A5B48B /* IconChanger */,
+				9BB852C42C5CD6AB00A5B48B /* IconChangerTests */,
+				9BB852CE2C5CD6AB00A5B48B /* IconChangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB852B22C5CD6AA00A5B48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB852BF2C5CD6AB00A5B48B /* Preview Assets.xcassets in Resources */,
+				9BB852BC2C5CD6AB00A5B48B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852C32C5CD6AB00A5B48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852CD2C5CD6AB00A5B48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB852B02C5CD6AA00A5B48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB852BA2C5CD6AA00A5B48B /* ContentView.swift in Sources */,
+				9BB852B82C5CD6AA00A5B48B /* IconChangerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852C12C5CD6AB00A5B48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB852CA2C5CD6AB00A5B48B /* IconChangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB852CB2C5CD6AB00A5B48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB852D62C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift in Sources */,
+				9BB852D42C5CD6AB00A5B48B /* IconChangerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BB852C72C5CD6AB00A5B48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB852B32C5CD6AA00A5B48B /* IconChanger */;
+			targetProxy = 9BB852C62C5CD6AB00A5B48B /* PBXContainerItemProxy */;
+		};
+		9BB852D12C5CD6AB00A5B48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB852B32C5CD6AA00A5B48B /* IconChanger */;
+			targetProxy = 9BB852D02C5CD6AB00A5B48B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BB852D72C5CD6AB00A5B48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BB852D82C5CD6AB00A5B48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9BB852DA2C5CD6AB00A5B48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IconChanger/IconChanger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IconChanger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9BB852DB2C5CD6AB00A5B48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IconChanger/IconChanger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IconChanger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9BB852DD2C5CD6AB00A5B48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconChanger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconChanger";
+			};
+			name = Debug;
+		};
+		9BB852DE2C5CD6AB00A5B48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconChanger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconChanger";
+			};
+			name = Release;
+		};
+		9BB852E02C5CD6AB00A5B48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IconChanger;
+			};
+			name = Debug;
+		};
+		9BB852E12C5CD6AB00A5B48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IconChangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IconChanger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB852AF2C5CD6AA00A5B48B /* Build configuration list for PBXProject "IconChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB852D72C5CD6AB00A5B48B /* Debug */,
+				9BB852D82C5CD6AB00A5B48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB852D92C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB852DA2C5CD6AB00A5B48B /* Debug */,
+				9BB852DB2C5CD6AB00A5B48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB852DC2C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB852DD2C5CD6AB00A5B48B /* Debug */,
+				9BB852DE2C5CD6AB00A5B48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB852DF2C5CD6AB00A5B48B /* Build configuration list for PBXNativeTarget "IconChangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB852E02C5CD6AB00A5B48B /* Debug */,
+				9BB852E12C5CD6AB00A5B48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB852AC2C5CD6AA00A5B48B /* Project object */;
+}
