@@ -14,6 +14,7 @@
 		9BB852CA2C5CD6AB00A5B48B /* IconChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852C92C5CD6AB00A5B48B /* IconChangerTests.swift */; };
 		9BB852D42C5CD6AB00A5B48B /* IconChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852D32C5CD6AB00A5B48B /* IconChangerUITests.swift */; };
 		9BB852D62C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852D52C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift */; };
+		9BB852E32C5CDA8B00A5B48B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB852E22C5CDA8B00A5B48B /* ImageProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9BB852CF2C5CD6AB00A5B48B /* IconChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB852D32C5CD6AB00A5B48B /* IconChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerUITests.swift; sourceTree = "<group>"; };
 		9BB852D52C5CD6AB00A5B48B /* IconChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BB852E22C5CDA8B00A5B48B /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9BB852BB2C5CD6AB00A5B48B /* Assets.xcassets */,
 				9BB852C02C5CD6AB00A5B48B /* IconChanger.entitlements */,
 				9BB852BD2C5CD6AB00A5B48B /* Preview Content */,
+				9BB852E22C5CDA8B00A5B48B /* ImageProcessor.swift */,
 			);
 			path = IconChanger;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB852BA2C5CD6AA00A5B48B /* ContentView.swift in Sources */,
+				9BB852E32C5CDA8B00A5B48B /* ImageProcessor.swift in Sources */,
 				9BB852B82C5CD6AA00A5B48B /* IconChangerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
